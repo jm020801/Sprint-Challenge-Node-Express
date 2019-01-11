@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+<!-- Using express, developers are able to use built in methods in this library. Basically this allow us to setup servers, (listen()) to allow us to run our server on a local port. Another build in method to run CRUD operations help to receive client requests and return data or error handling, with commonly used methods like get(), post(), and delete(). -->
+
 - [ ] Describe Middleware?
+
+<!-- Middleware is the extra layer of code that allow us to customize what Express is already able to do. The data travels through middleware before traveling to a request. -->
 
 - [ ] Describe a Resource?
 
+<!-- Resources are the different function calls we write inside of Express, they help us send and receive data inside of our project. -->
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+<!-- A status 200 and our data like and new post or obj. -->
+
 - [ ] How can we partition our application into sub-applications?
+
+<!-- By using routers to organize any server resources. -->
 
 ## Project Setup
 
