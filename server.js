@@ -4,7 +4,7 @@ const projectsRouter = require('./action/projectsRouter.js');
 
 const server = express();
 
-
+server.use(express.json());
 server.use('/actions', actionsRouter);
 server.use('/projects', projectsRouter);
 
